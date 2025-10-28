@@ -10,16 +10,25 @@ document.addEventListener("DOMContentLoaded", function() {
   // Menü verisini 'menu.json' dosyasından çek
   fetch('menu.json')
     .then(response => {
-      if (!response.ok) throw new Error('Network response was not ok');
-      return response.json();
+      if (!response.ok) {
+        throw new Error('Network hatası: ' + response.statusText);
+      }
+      return response.json(); // Gelen veriyi JSON olarak işle
     })
     .then(data => {
       menuData = data; // Veriyi global değişkene ata
       renderKategoriler(); // İlk olarak kategori listesini göster
     })
     .catch(error => {
+      // Hata olursa, 'Yükleniyor...' simgesini kaldırıp bir hata mesajı göster
       console.error('Menü yüklenirken hata oluştu:', error);
-      kategoriAlani.innerHTML = `<div class="alert alert-danger">Menü yüklenemedi.</div>`;
+      const kategoriListesi = document.getElementById('kategori-listesi');
+      kategoriListesi.innerHTML = `
+        <div class="alert alert-danger" role="alert">
+          <strong>Hata:</strong> Menü yüklenemedi. (Hata: ${error.message})
+          <br>
+          Lütfen 'menu.json' dosyanızın içeriğini kontrol edin.
+        </div>`;
     });
 });
 
@@ -36,9 +45,9 @@ function renderKategoriler() {
 
   menuData.kategoriler.forEach(kategori => {
     htmlCikti += `
-      <div class="col-md-4">
-        <div class="card kategori-kart shadow-sm p-4 text-center" onclick="renderUrunler('${kategori.ad}')">
-          <h3 class="h5">${kategori.ad}</h3>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card kategori-kart shadow-sm p-3 text-center" onclick="renderUrunler('${kategori.ad}')">
+          <h3 class="h6 mb-0">${kategori.ad}</h3>
         </div>
       </div>
     `;
@@ -84,7 +93,7 @@ function renderUrunler(kategoriAdi) {
       <li class="list-group-item d-flex justify-content-between align-items-center">
         <div>
           <strong class="urun-adi">${urun.ad}</strong>
-          ${urun.aciklama ? `<br><small class="text-muted">${urun.aciklama}</small>` : ''}
+          ${(urun.aciklama && urun.aciklama.trim() !== "") ? `<br><small class="text-muted">${urun.aciklama}</small>` : ''}
         </div>
         <span class="badge fiyat-badge rounded-pill">${urun.fiyat}</span>
       </li>
