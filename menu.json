@@ -1,36 +1,185 @@
 {
   "kategoriler": [
     {
-      "ad": "Sıcak İçecekler",
+      "ad": "Kahveler",
       "urunler": [
-        { "ad": "Türk Kahvesi", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "55 TL" },
-        { "ad": "Double Türk Kahvesi", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "75 TL" },
-        { "ad": "Dibek Kahvesi", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "65 TL" },
-        { "ad": "Menengiç Kahvesi", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "70 TL" },
-        { "ad": "Aromalı Türk Kahvesi", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "70 TL" },
-        { "ad": "Nescafe", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "60 TL" },
-        { "ad": "Sütlü Nescafe", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "70 TL" },
-        { "ad": "Sütlü Filtre Kahve", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "75 TL" },
-        { "ad": "Espresso", "aciklama": "Tek veya duble seçeneğiyle", "fiyat": "60   TL" },
-        { "ad": "Çay (Bardak)", "aciklama": "Tavşan kanı demleme çay", "fiyat": "20 TL" },
-        { "ad": "Latte", "aciklama": "Süt ve espressonun yumuşak buluşması", "fiyat": "65 TL" }
+        { "ad": "TÜRK KAHVESİ", "aciklama": "", "fiyat": "55 TL" },
+        { "ad": "DOUBLE TÜRK KAHVESİ", "aciklama": "", "fiyat": "75 TL" },
+        { "ad": "DİBEK KAHVESİ", "aciklama": "", "fiyat": "65 TL" },
+        { "ad": "MENENGİÇ KAHVESİ", "aciklama": "", "fiyat": "70 TL" },
+        { "ad": "AROMALI TÜRK KAHVESİ", "aciklama": "", "fiyat": "70 TL" },
+        { "ad": "NESCAFE", "aciklama": "", "fiyat": "60 TL" },
+        { "ad": "SÜTLÜ NESCAFE", "aciklama": "", "fiyat": "70 TL" },
+        { "ad": "SADE FİLTRE KAHVE", "aciklama": "", "fiyat": "65 TL" },
+        { "ad": "SÜTLÜ FİLTRE KAHVE", "aciklama": "", "fiyat": "75 TL" },
+        { "ad": "ESPRESSO", "aciklama": "", "fiyat": "60 TL" },
+        { "ad": "AMERICANO", "aciklama": "", "fiyat": "70 TL" },
+        { "ad": "DOUBLE ESPRESSO", "aciklama": "", "fiyat": "70 TL" },
+        { "ad": "LATTE", "aciklama": "", "fiyat": "70 TL" },
+        { "ad": "AROMALI LATTE", "aciklama": "", "fiyat": "75 TL" },
+        { "ad": "MOCHA", "aciklama": "", "fiyat": "75 TL" },
+        { "ad": "WHITE CHOCOLATE MOCHA", "aciklama": "", "fiyat": "75 TL" },
+        { "ad": "ICE LATTE", "aciklama": "", "fiyat": "75 TL" },
+        { "ad": "ICE AMERICANO", "aciklama": "", "fiyat": "75 TL" },
+        { "ad": "ICE MOCHA", "aciklama": "", "fiyat": "75 TL" },
+        { "ad": "ICE CAPPUCINO", "aciklama": "", "fiyat": "75 TL" },
+        { "ad": "İLAVE AROMA", "aciklama": "", "fiyat": "10 TL" }
       ]
     },
     {
-      "ad": "Tatlılar",
+      "ad": "Çaylar",
       "urunler": [
-        { "ad": "Cheesecake (Limonlu)", "aciklama": "Taze limonlu sos ile", "fiyat": "90 TL" },
-        { "ad": "Sufle (Dondurmalı)", "aciklama": "Akışkan çikolatalı, 1 top vanilyalı dondurma ile", "fiyat": "85 TL" },
-        { "ad": "Havuçlu Tarçınlı Kek", "aciklama": "Ev yapımı", "fiyat": "60 TL" }
+        { "ad": "ÇAY", "aciklama": "", "fiyat": "20 TL" },
+        { "ad": "FİNCAN ÇAY", "aciklama": "", "fiyat": "30 TL" },
+        { "ad": "MEYVE ÇAYLARI (BARDAK)", "aciklama": "KİVİ,ORALET,KUŞBURNU,MUZ,ÇİLEK,KARADUT,KAKAO,ELMA,LİMON,ŞEFTALİ,NANE-LİMON", "fiyat": "20 TL" },
+        { "ad": "SÜTLÜ MEYVE ÇAYLARI", "aciklama": "KAKAO,ÇİLEK,MUZ", "fiyat": "30 TL" }
+      ]
+    },
+    {
+      "ad": "Bitki Çayları",
+      "urunler": [
+        { "ad": "IHLAMUR", "aciklama": "", "fiyat": "60 TL" },
+        { "ad": "KIŞ ÇAYI", "aciklama": "", "fiyat": "60 TL" },
+        { "ad": "PAPATYA", "aciklama": "", "fiyat": "60 TL" },
+        { "ad": "NANE-LİMON", "aciklama": "", "fiyat": "60 TL" },
+        { "ad": "REZENE", "aciklama": "", "fiyat": "60 TL" },
+        { "ad": "YEŞİL ÇAY", "aciklama": "", "fiyat": "60 TL" },
+        { "ad": "BAL İLAVE", "aciklama": "", "fiyat": "10 TL" }
+      ]
+    },
+    {
+      "ad": "Diğer Sıcaklar",
+      "urunler": [
+        { "ad": "SICAK SÜT", "aciklama": "", "fiyat": "40 TL" },
+        { "ad": "BALLI SÜT", "aciklama": "", "fiyat": "60 TL" },
+        { "ad": "SICAK ÇİKOLATA", "aciklama": "", "fiyat": "70 TL" },
+        { "ad": "BEYAZ SICAK ÇİK.", "aciklama": "", "fiyat": "70 TL" },
+        { "ad": "FINDIKLI SICAK ÇİK.", "aciklama": "", "fiyat": "75 TL" },
+        { "ad": "KARAMELLİ SICAK ÇİK.", "aciklama": "", "fiyat": "75 TL" },
+        { "ad": "ÇİLEKLİ SICAK ÇİK.", "aciklama": "", "fiyat": "75 TL" },
+        { "ad": "MUZLU SICAK ÇİK.", "aciklama": "", "fiyat": "75 TL" },
+        { "ad": "SALEP", "aciklama": "", "fiyat": "70 TL" }
       ]
     },
     {
       "ad": "Soğuk İçecekler",
       "urunler": [
-        { "ad": "Ice Latte", "aciklama": "", "fiyat": "70 TL" },
-        { "ad": "Soğuk Çay (Şeftali)", "aciklama": "", "fiyat": "50 TL" }
+        { "ad": "PEPSİ", "aciklama": "", "fiyat": "55 TL" },
+        { "ad": "YEDİGÜN", "aciklama": "", "fiyat": "55 TL" },
+        { "ad": "FRUKO", "aciklama": "", "fiyat": "55 TL" },
+        { "ad": "MEYVE SUYU", "aciklama": "", "fiyat": "55 TL" },
+        { "ad": "İCE-TEA", "aciklama": "", "fiyat": "55 TL" },
+        { "ad": "ENERJİ İÇECEĞİ", "aciklama": "", "fiyat": "55 TL" },
+        { "ad": "SADE SODA", "aciklama": "", "fiyat": "25 TL" },
+        { "ad": "MEYVELİ SODA", "aciklama": "", "fiyat": "30 TL" },
+        { "ad": "AYRAN", "aciklama": "", "fiyat": "20 TL" },
+        { "ad": "SU", "aciklama": "", "fiyat": "15 TL" }
+      ]
+    },
+    {
+      "ad": "Vitamin Bar",
+      "urunler": [
+        { "ad": "SIKMA PORTAKAL", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "EV YAPIMI LİMONATA", "aciklama": "", "fiyat": "60 TL" },
+        { "ad": "BALLI SÜT (SOĞUK)", "aciklama": "", "fiyat": "70 TL" },
+        { "ad": "BALLI MUZLU SÜT", "aciklama": "", "fiyat": "80 TL" }
+      ]
+    },
+    {
+      "ad": "Buda Lezzetler",
+      "urunler": [
+        { "ad": "SIKMA LİMONLU SODA", "aciklama": "", "fiyat": "45 TL" },
+        { "ad": "CHURCILL", "aciklama": "", "fiyat": "45 TL" },
+        { "ad": "İTALYAN SODASI", "aciklama": "", "fiyat": "55 TL" },
+        { "ad": "KÜBA", "aciklama": "", "fiyat": "55 TL" }
+      ]
+    },
+    {
+      "ad": "Milkshake",
+      "urunler": [
+        { "ad": "VANİLYA", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "KARAMEL", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "ÇİLEK", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "ÇİKOLATA", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "FRAMBUAZ", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "MUZ", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "ŞEFTALİ", "aciklama": "", "fiyat": "80 TL" }
+      ]
+    },
+    {
+      "ad": "Frozen",
+      "urunler": [
+        { "ad": "LİMON", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "KARADUT", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "ÇİLEK", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "KAVUN", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "ANANAS", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "MUZ", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "ŞEFTALİ", "aciklama": "", "fiyat": "80 TL" }
+      ]
+    },
+    {
+      "ad": "Kokteyller",
+      "urunler": [
+        { "ad": "BLUE OCEAN", "aciklama": "", "fiyat": "80 TL" },
+        { "ad":"MARGARİTA", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "CARAMEL DREAM", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "STRAWBERRY COOL", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "RAİNBOW", "aciklama": "", "fiyat": "80 TL" }
+      ]
+    },
+    {
+      "ad": "Tost Çeşitleri",
+      "urunler": [
+        { "ad": "Domates, Kaşarlı Tost", "aciklama": "Domates, Kaşar, Ketçap, Mayonez", "fiyat": "75 TL" },
+        { "ad": "Kaşarlı Tost", "aciklama": "Kaşar, Ketçap, Mayonez", "fiyat": "70 TL" },
+        { "ad": "Sucuklu Tost", "aciklama": "Sucuk, Ketçap, Mayonez", "fiyat": "70 TL" },
+        { "ad": "Karışık Tost", "aciklama": "Sucuk, Kaşar, Ketçap, Mayonez", "fiyat": "80 TL" },
+        { "ad": "Yumurtalı Karışık Tost", "aciklama": "Yumurta, Sucuk, Kaşar, Ketçap, Mayonez", "fiyat": "85 TL" },
+        { "ad": "Atom Tost", "aciklama": "Yumurta, Salam, Sosis, Sucuk, Kaşar, Ketçap, Mayonez", "fiyat": "110 TL" }
+      ]
+    },
+    {
+      "ad": "Ekmek Arası",
+      "urunler": [
+        { "ad": "Palso", "aciklama": "Patates, Sosis, Ketçap, Mayonez", "fiyat": "80 TL" },
+        { "ad": "Sucuklu palso", "aciklama": "Patates, Sucuk, Ketçap, Mayonez", "fiyat": "80 TL" },
+        { "ad": "Kumru", "aciklama": "Sucuk, Sosis, Salam, Kaşar, Ketçap, Mayonez", "fiyat": "100 TL" },
+        { "ad": "Sucuk Ekmek", "aciklama": "Sucuk, Domates, Soğan, Ketçap, Mayonez", "fiyat": "110 TL" },
+        { "ad": "Et Döner", "aciklama": "Et Döner, Marul, Soğan, Ketçap, Mayonez", "fiyat": "110 TL" },
+        { "ad": "Köfte Ekmek", "aciklama": "Köfte, Ekmek, Domates, Marul, Soğan, Ketçap, Mayonez", "fiyat": "110 TL" }
+      ]
+    },
+    {
+      "ad": "Menemen Çeşitleri",
+      "urunler": [
+        { "ad": "Sade Menemen", "aciklama": "Domates, Biber, Yumurta", "fiyat": "75 TL" },
+        { "ad": "Kaşarlı Menemen", "aciklama": "Domates, Biber, Yumurta, Kaşar", "fiyat": "85 TL" },
+        { "ad": "Sucuklu Menemen", "aciklama": "Domates, Biber, Yumurta, Sucuk", "fiyat": "85 TL" },
+        { "ad": "Karışık Menemen", "aciklama": "Domates, Biber, Yumurta, Sucuk, Kaşar", "fiyat": "90 TL" }
+      ]
+    },
+    {
+      "ad": "Tavalar",
+      "urunler": [
+        { "ad": "Patates Kızartması", "aciklama": "", "fiyat": "60 TL" },
+        { "ad": "Nugget", "aciklama": "", "fiyat": "60 TL" },
+        { "ad": "Sıcak Tavası", "aciklama": "Nugget, patates, sosis", "fiyat": "90 TL" },
+        { "ad": "Salçalı Sosis tava", "aciklama": "", "fiyat": "75 TL" },
+        { "ad": "Salçalı kaşarlı sosis tava", "aciklama": "", "fiyat": "85 TL" },
+        { "ad": "Tavuklu pilav", "aciklama": "", "fiyat": "80 TL" }
+      ]
+    },
+    {
+      "ad": "Omlet & Yumurta",
+      "urunler": [
+        { "ad": "Sade omlet", "aciklama": "", "fiyat": "70 TL" },
+        { "ad": "Peynirli", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "Sosisli", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "Kaşarlı", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "Sucuklu", "aciklama": "", "fiyat": "80 TL" },
+        { "ad": "Karışık", "aciklama": "Sucuk, sosis, salam, kaşar", "fiyat": "90 TL" }
       ]
     }
   ]
-
 }
