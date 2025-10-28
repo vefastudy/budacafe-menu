@@ -142,8 +142,8 @@
     {
       "ad": "Ekmek Arası",
       "urunler": [
-        { "ad": "Palso", "aciklama": "Patates, Sosis, Ketçap, Mayonez", "fiyat": "80 TL" },
-        { "ad": "Sucuklu palso", "aciklama": "Patates, Sucuk, Ketçap, Mayonez", "fiyat": "80 TL" },
+        { "ad": "Patso", "aciklama": "Patates, Sosis, Ketçap, Mayonez", "fiyat": "80 TL" },
+        { "ad": "Sucuklu patso", "aciklama": "Patates, Sucuk, Ketçap, Mayonez", "fiyat": "80 TL" },
         { "ad": "Kumru", "aciklama": "Sucuk, Sosis, Salam, Kaşar, Ketçap, Mayonez", "fiyat": "100 TL" },
         { "ad": "Sucuk Ekmek", "aciklama": "Sucuk, Domates, Soğan, Ketçap, Mayonez", "fiyat": "110 TL" },
         { "ad": "Et Döner", "aciklama": "Et Döner, Marul, Soğan, Ketçap, Mayonez", "fiyat": "110 TL" },
@@ -183,3 +183,4 @@
     }
   ]
 }
+
