@@ -3,8 +3,15 @@
     {
       "ad": "Sıcak İçecekler",
       "urunler": [
-        { "ad": "Türk Kahvesi", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "40 TL" },
-        { "ad": "Espresso", "aciklama": "Tek veya duble seçeneğiyle", "fiyat": "45 TL" },
+        { "ad": "Türk Kahvesi", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "55 TL" },
+        { "ad": "Double Türk Kahvesi", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "75 TL" },
+        { "ad": "Dibek Kahvesi", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "65 TL" },
+        { "ad": "Menengiç Kahvesi", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "70 TL" },
+        { "ad": "Aromalı Türk Kahvesi", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "70 TL" },
+        { "ad": "Nescafe", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "60 TL" },
+        { "ad": "Sütlü Nescafe", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "70 TL" },
+        { "ad": "Sütlü Filtre Kahve", "aciklama": "Bol köpüklü, geleneksel lezzet", "fiyat": "75 TL" },
+        { "ad": "Espresso", "aciklama": "Tek veya duble seçeneğiyle", "fiyat": "60   TL" },
         { "ad": "Çay (Bardak)", "aciklama": "Tavşan kanı demleme çay", "fiyat": "20 TL" },
         { "ad": "Latte", "aciklama": "Süt ve espressonun yumuşak buluşması", "fiyat": "65 TL" }
       ]
@@ -25,4 +32,5 @@
       ]
     }
   ]
+
 }
